@@ -1,0 +1,110 @@
+{
+  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.sideBar.location": "left",
+  "workbench.statusBar.visible": true,
+  "workbench.editor.enablePreview": false, // “预览模式”：单击文件名在当前标签页打开；关闭后在新标签页打开。
+  "breadcrumbs.enabled": true, // 面包屑导航
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "http.proxy": "http://127.0.0.1:1080",
+  "http.proxyAuthorization": null,
+  "http.proxyStrictSSL": true,
+  "extensions.autoUpdate": false, // 关闭插件自动更新
+  "update.mode": "none", // 关闭vscode自动更新
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.autoSave": "onFocusChange",
+  // 文本文件以换行符（Line Feed, LF, \n）结尾是Unix约定的，这可以避免在显示或连接文本文件时进行额外的处理。历史问题
+  // 许多构建于Unix/Linux/MacOS上的工具（文本编辑器、差异化工具和其他文本处理工具），比如 wc统计行数、cat拼接文本、git diff 继承了这一约定，预设期望换行结束。
+  // 而Windows并没有开发成与Unix兼容，所以它没有相同的约定，而且大多数Windows软件都会处理得很好，没有后继的换行符。
+  // 最好\n结尾以保证兼容性，而且还有个好处是当光标移到文件末尾时，可保证编辑器横向滚动条不偏移。
+  "files.insertFinalNewline": true, // https://stackoverflow.com/questions/5813311/no-newline-at-end-of-file
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.idea": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.hg/store/**": true,
+    "**/.idea/**": true,
+    "**/.svn/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/idea": true
+  },
+  "editor.fontFamily": "Source Code Pro", // Source Code Pro, Dejavu Sans Mono
+  "editor.fontSize": 14,
+  "editor.autoIndent": "advanced",
+  "editor.tabSize": 4,
+  "editor.renderWhitespace": "boundary", // boundary表示空格渲染成点；selection表示空格渲染成空白
+  "editor.formatOnSave": true, // 保存时自动格式化
+  "editor.formatOnPaste": true,
+  "editor.comments.insertSpace": true,
+  "editor.wordWrap": "on", // 开启折行
+  "editor.wordWrapColumn": 120,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "eslint.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "html",
+    "javascript",
+    "typescript",
+    "vue",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  // json with comments
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "javascript.format.insertSpaceAfterCommaDelimiter": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "java.home": "/usr/lib/jvm/default",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-11",
+      "path": "/usr/lib/jvm/default",
+      "default": true
+    }
+  ],
+  "todo-tree.tree.showScanModeButton": false
+}

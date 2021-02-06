@@ -1,0 +1,100 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+alt+s",
+    "command": "workbench.action.openSettings" // 打开设置
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.toggleTerminal" // 打开终端
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility" // 隐藏侧边栏
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.showCommands" // show all commands 打开命令面板
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpen" // go to file
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.togglePanel" // 显示/隐藏底部面板
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "workbench.action.newWindow" // 新开窗口
+  },
+  {
+    "key": "shift+enter",
+    "command": "editor.action.insertLineAfter", // 在光标所在行的下一行插入空行
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.deleteLines", // 删除光标所在行
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.navigateBack" // 回到上一处光标位置
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.navigateForward" // 回到下一处光标位置
+  },
+  {
+    "key": "home",
+    "command": "cursorHome", // 光标回到当前行最左侧 Fn + ←
+    "when": "textInputFocus"
+  },
+  {
+    "key": "end",
+    "command": "cursorEnd", // 光标回到当前行最左侧 Fn + →
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.gotoLine" // 跳转指定行
+  },
+  {
+    "key": "ctrl+alt+down",
+    "command": "editor.action.copyLinesDownAction", // 向下复制一行
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "editor.action.commentLine", // 单行注释
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "editor.action.blockComment", // 区块注释
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+up",
+    "command": "editor.action.moveLinesUpAction", // 向上移动行
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+down",
+    "command": "editor.action.moveLinesDownAction", // 向下移动行
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.action.splitEditor" // Split editor 左右显示多个编辑器窗口
+  },
+  {
+    "key": "shift+alt+x",
+    "command": "java.debug.runJavaFile" // 运行Java代码
+  },
+  {
+    "key": "shift+alt+d",
+    "command": "java.debug.debugJavaFile" // 调试Java代码
+  }
+]

@@ -1,0 +1,34 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+  // tip: the url of extensions marketplace is https://open-vsx.org/ in linux version, rather than https://marketplace.visualstudio.com/, see `/usr/lib/code/product.json`
+
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    "EditorConfig.EditorConfig", // 统一编辑器风格
+    "esbenp.prettier-vscode", // Code formatter（统一项目风格）
+    "HookyQR.beautify", // Beautify code in place
+    "dbaeumer.vscode-eslint", // 代码静态分析、规范化工具
+    "TabNine.tabnine-vscode", // Better code completions using AI(better than Visual Studio IntelliCode)
+    "eamodio.gitlens", // Git supercharged
+    "donjayamanne.githistory", // View git log, file history, compare branches or commits
+    "ecmel.vscode-html-css", // CSS Intellisense for HTML
+    "formulahendry.auto-close-tag", // Automatically add HTML/XML close tag
+    "xabikos.JavaScriptSnippets", // Code snippets for JavaScript in ES6 syntax
+    "vscode-icons-team.vscode-icons", // Icons for Visual Studio Code
+    "christian-kohler.path-intellisense", // autocompletes filenames
+    "CoenraadS.bracket-pair-colorizer-2", // colorizing matching brackets
+    "formulahendry.code-runner", // Run C, C++, Java, JS, PHP, Python, Perl, Ruby, Go, Lua, ...
+    "Gruntfuggly.todo-tree", // Show TODO, FIXME, etc. comment tags in a tree view
+    "jebbs.plantuml", // Rich PlantUML support for Visual Studio Code.
+    "octref.vetur",
+    "redhat.java", // Java Linting, Intellisense, formatting, refactoring, Maven/Gradle support and more.
+    "vscjava.vscode-java-debug", // A lightweight Java debugger
+    "vscjava.vscode-java-dependency", // Manage Java projects
+    "vscjava.vscode-java-test", // Run & Debug JUnit/TestNG Test Cases
+    "vscjava.vscode-maven" // Manage Maven projects, execute goals, generate project from archetype
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": []
+}
