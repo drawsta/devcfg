@@ -12,6 +12,9 @@
   "http.proxyStrictSSL": true,
   "extensions.autoUpdate": false, // 关闭插件自动更新
   "update.mode": "none", // 关闭vscode自动更新
+  "update.showReleaseNotes": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
   "files.encoding": "utf8",
   "files.eol": "\n",
   "files.autoSave": "onFocusChange",
